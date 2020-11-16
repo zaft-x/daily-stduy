@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48231d6f-9dc3-4d93-b37a-bded4db2b534" name="Default Changelist" comment="" />
+    <list default="true" id="48231d6f-9dc3-4d93-b37a-bded4db2b534" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/study-third-party/src/main/java/com/study/studythirdparty/easyexcel/DemoData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-third-party/src/main/java/com/study/studythirdparty/easyexcel/simple/DemoWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-third-party/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-third-party/pom.xml" afterDir="false" />
+    </list>
+    <list id="edcd4a99-3606-451d-bc38-15d144a4b063" name="ignore changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="daily-study" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -13,6 +30,43 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="3" end1="4" start2="3" end2="18" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="8" end1="8" start2="22" end2="25" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="16" end1="16" start2="33" end2="70" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="30" end1="30" start2="84" end2="87" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="37" end1="37" start2="94" end2="95" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="38" end1="38" start2="96" end2="97" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="41" end1="42" start2="100" end2="101" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="45" end1="45" start2="104" end2="109" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="46" end1="46" start2="110" end2="111" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="51" end1="52" start2="116" end2="143" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="66" end1="66" start2="157" end2="170" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="73" end1="73" start2="177" end2="178" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="77" end1="78" start2="182" end2="191" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="79" end1="79" start2="192" end2="193" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="80" end1="80" start2="194" end2="198" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="82" end1="82" start2="200" end2="208" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="86" end1="87" start2="212" end2="213" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="89" end1="91" start2="215" end2="217" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="93" end1="95" start2="219" end2="221" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="97" end1="99" start2="223" end2="225" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="101" end1="103" start2="227" end2="229" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="105" end1="107" start2="231" end2="233" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="109" end1="111" start2="235" end2="237" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="113" end1="115" start2="239" end2="241" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="117" end1="118" start2="243" end2="252" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="126" end1="127" start2="260" end2="261" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="129" end1="130" start2="263" end2="264" changelist="48231d6f-9dc3-4d93-b37a-bded4db2b534" />
+        <range start1="138" end1="138" start2="272" end2="277" changelist="edcd4a99-3606-451d-bc38-15d144a4b063" />
+      </ranges>
+    </file>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -28,6 +82,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1kDv7BZ1S79waZT2HSSxwOKMwNF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,21 +92,55 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/study-swagger/src/main/java/org/study/daily/swagger" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/study-leetcode" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.study.studythirdparty.easyexcel.simple" />
+      <recent name="com.study.studythirdparty.easyexcel" />
+      <recent name="com.study.toolkits.easyexcel" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\temp-workspace\daily-study\study-leetcode" />
       <recent name="E:\temp-workspace\daily-study\study-swagger\src\main\java\org\study\daily\swagger" />
       <recent name="E:\temp-workspace\daily-study\study-leetcode\src\main\java\org\study\daily\leetcode" />
       <recent name="E:\temp-workspace\daily-study\study-leetcode\src\main\java\org\study\daily" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.StudyThirdPartyApplication (1)">
+  <component name="RunManager" selected="Application.NumJewelsInStones">
+    <configuration name="DynamicSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.study.daily.leetcode.sum.DynamicSum" />
+      <module name="study-leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.study.daily.leetcode.sum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumJewelsInStones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.study.daily.leetcode.NumJewelsInStones" />
+      <module name="study-leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.study.daily.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudyThirdPartyApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="study-third-party" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.studythirdparty.StudyThirdPartyApplication" />
@@ -64,6 +155,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ToolkitsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="toolkits" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.toolkits.ToolkitsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NumJewelsInStones" />
+        <item itemvalue="Application.DynamicSum" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -71,51 +175,81 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="48231d6f-9dc3-4d93-b37a-bded4db2b534" name="Default Changelist" comment="" />
+      <changelist id="edcd4a99-3606-451d-bc38-15d144a4b063" name="ignore changelist" comment="" />
       <created>1605247806510</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605247806510</updated>
-      <workItem from="1605247811079" duration="6375000" />
+      <workItem from="1605247811079" duration="11530000" />
+      <workItem from="1605488795205" duration="527000" />
     </task>
+    <task id="LOCAL-00001" summary="leetcode:  solution">
+      <created>1605259804925</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605259804925</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="leetcode:  solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode:  solution" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="344" y="11" key="CommitChangelistDialog2" timestamp="1605259803572">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="344" y="11" key="CommitChangelistDialog2/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605259803572" />
+    <state width="413" height="466" key="DebuggerActiveHint" timestamp="1605259417557">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="413" height="466" key="DebuggerActiveHint/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605259417557" />
     <state x="0" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1605248631166">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="0" y="0" key="FileDocumentManager.FileCacheConflict/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605248631166" />
-    <state width="1478" height="120" key="GridCell.Tab.0.bottom" timestamp="1605252366229">
+    <state width="1493" height="354" key="GridCell.Tab.0.bottom" timestamp="1605259709499">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1478" height="120" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605252366229" />
-    <state width="1478" height="120" key="GridCell.Tab.0.center" timestamp="1605252366227">
+    <state width="1493" height="354" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605259709499" />
+    <state width="1493" height="354" key="GridCell.Tab.0.center" timestamp="1605259709498">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1478" height="120" key="GridCell.Tab.0.center/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605252366227" />
-    <state width="1478" height="120" key="GridCell.Tab.0.left" timestamp="1605252366226">
+    <state width="1493" height="354" key="GridCell.Tab.0.center/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605259709498" />
+    <state width="1493" height="354" key="GridCell.Tab.0.left" timestamp="1605259709497">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1478" height="120" key="GridCell.Tab.0.left/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605252366226" />
-    <state width="1478" height="120" key="GridCell.Tab.0.right" timestamp="1605252366228">
+    <state width="1493" height="354" key="GridCell.Tab.0.left/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605259709497" />
+    <state width="1493" height="354" key="GridCell.Tab.0.right" timestamp="1605259709499">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1478" height="120" key="GridCell.Tab.0.right/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605252366228" />
-    <state width="1478" height="120" key="GridCell.Tab.1.bottom" timestamp="1605252366233">
+    <state width="1493" height="354" key="GridCell.Tab.0.right/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605259709499" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1605259600587">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1478" height="120" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605252366233" />
-    <state width="1478" height="120" key="GridCell.Tab.1.center" timestamp="1605252366231">
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605259600587" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1605259600586">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1478" height="120" key="GridCell.Tab.1.center/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605252366231" />
-    <state width="1478" height="120" key="GridCell.Tab.1.left" timestamp="1605252366230">
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605259600586" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1605259600586">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1478" height="120" key="GridCell.Tab.1.left/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605252366230" />
-    <state width="1478" height="120" key="GridCell.Tab.1.right" timestamp="1605252366232">
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605259600586" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1605259600586">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1478" height="120" key="GridCell.Tab.1.right/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605252366232" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605259600586" />
+    <state x="599" y="287" key="VCS.EditChangelistDialog" timestamp="1605255721108">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="599" y="287" key="VCS.EditChangelistDialog/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605255721108" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1605259806630">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605259806630" />
     <state x="499" y="185" key="extract.method.dialog" timestamp="1605250946590">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -124,10 +258,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="447" y="150" width="642" height="534" key="find.popup/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605251433285" />
-    <state x="178" y="112" key="new project wizard" timestamp="1605249238046">
+    <state x="178" y="112" key="new project wizard" timestamp="1605489113193">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="178" y="112" key="new project wizard/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605249238046" />
+    <state x="178" y="112" key="new project wizard/0.0.1536.834/1920.-506.1536.834@0.0.1536.834" timestamp="1605489113193" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -136,6 +270,11 @@
           <url>file://$PROJECT_DIR$/study-third-party/src/main/java/com/study/studythirdparty/config/swagger/SwaggerConfig.java</url>
           <line>26</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/study-leetcode/src/main/java/org/study/daily/leetcode/sum/DynamicSum.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

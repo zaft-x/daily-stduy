@@ -12,6 +12,7 @@
         <module>study-jdbc</module>
         <module>study-leetcode</module>
         <module>study-third-party</module>
+        <module>toolkits</module>
     </modules>
 
 
