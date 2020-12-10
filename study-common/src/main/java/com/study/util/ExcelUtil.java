@@ -17,16 +17,13 @@ public class ExcelUtil {
 
     /**
      * Excel column index begin 1
-     * @param colStr
-     * @param length
-     * @return
      */
     public static int excelColStrToNum(String colStr, int length) {
         int num = 0;
         int result = 0;
-        for(int i = 0; i < length; i++) {
+        for (int i = 0; i < length; i++) {
             char ch = colStr.charAt(length - i - 1);
-            num = (int)(ch - 'A' + 1) ;
+            num = (ch - 'A' + 1);
             num *= Math.pow(26, i);
             result += num;
         }
@@ -35,8 +32,6 @@ public class ExcelUtil {
 
     /**
      * Excel column index begin 1
-     * @param columnIndex
-     * @return
      */
     public static String excelColIndexToStr(int columnIndex) {
         if (columnIndex <= 0) {
@@ -49,7 +44,7 @@ public class ExcelUtil {
                 columnIndex--;
             }
             columnStr = ((char) (columnIndex % 26 + (int) 'A')) + columnStr;
-            columnIndex = (int) ((columnIndex - columnIndex % 26) / 26);
+            columnIndex = ((columnIndex - columnIndex % 26) / 26);
         } while (columnIndex > 0);
         return columnStr;
     }

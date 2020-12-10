@@ -2,6 +2,7 @@ package com.study.util;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import com.study.constant.RegexConstant;
 
 /**
  * @Author x.zaft
@@ -14,7 +15,7 @@ public class ValidateExpandUtil {
     }
 
     public static boolean valEmail(String value) {
-        return match("^\\w+((-\\w+)|(\\.\\w+))*\\@[A-Za-z0-9]+((\\.|-)[A-Za-z0-9]+)*\\.[A-Za-z0-9]+$", value);
+        return match(RegexConstant.V_EMAIL, value);
     }
 
     public static boolean valDate(String regex, String value) {
@@ -22,7 +23,7 @@ public class ValidateExpandUtil {
     }
 
     public static boolean valPhone(String value) {
-        return match("^[1](([3][0-9])|([4][5-9])|([5][0-3,5-9])|([6][5,6])|([7][0-8])|([8][0-9])|([9][1,5,8,9]))[0-9]{8}$", value);
+        return match(RegexConstant.V_PHONE, value);
     }
 
     public static boolean valNumber(String regex, String value) {
@@ -34,4 +35,10 @@ public class ValidateExpandUtil {
         Matcher matcher = pattern.matcher(value);
         return matcher.matches();
     }
+
+
+    public static boolean valIDCard(String value) {
+        return IDCardUtil.isIDCard(value);
+    }
+
 }
