@@ -15,6 +15,8 @@ public class ExcelUtil {
 
     }
 
+    public static final String EXCEL_SUFFIX_XLSX = ".xlsx";
+
     /**
      * Excel column index begin 1
      */

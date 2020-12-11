@@ -5,6 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import org.apache.poi.ss.usermodel.Workbook;
+import com.study.util.ExcelUtil;
 import cn.afterturn.easypoi.excel.entity.ExportParams;
 import lombok.extern.slf4j.Slf4j;
 
@@ -19,7 +20,7 @@ public class ExcelEasyPoi {
 
     public static void main(String[] args) {
 
-        String fileName = "D:\\excel\\" + System.currentTimeMillis() + ExportUtil.XLSX;
+        String fileName = "D:\\excel\\" + System.currentTimeMillis() + ExcelUtil.EXCEL_SUFFIX_XLSX;
         Workbook workbook = ExportUtil
                 .createExcelTemplate(new ExportParams(), ExcelEntityTest.class, new ArrayList<>());
 

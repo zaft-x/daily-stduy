@@ -30,8 +30,6 @@ public class ExportUtil {
 
     public static int EXCEL_MAX_ROW = 65535;
 
-    public static final String XLSX = ".xlsx";
-
     /**
      * @param entity 表格标题属性
      * @param pojoClass Excel对象Class
