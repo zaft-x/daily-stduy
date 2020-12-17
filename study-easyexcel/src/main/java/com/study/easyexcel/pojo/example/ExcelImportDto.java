@@ -37,9 +37,6 @@ public class ExcelImportDto extends ExcelRow {
     @ExcelAnalyze(nonEmpty = true, formatCategory = 6, message = "国籍")
     private String nationalityName;
 
-    /**
-     *
-     */
     @ExcelProperty(value = "*证件类型")
     @ExcelAnalyze(nonEmpty = true, formatCategory = 5, format = "staff.staff_info.credentialsType", message = "证件类型")
     private String credentialsTypeName;
@@ -50,7 +47,7 @@ public class ExcelImportDto extends ExcelRow {
 
     /** 枚举 */
     @ExcelProperty(value = "*性别")
-    @ExcelAnalyze(nonEmpty = true, formatCategory = 5, format = "staff.staff_info.sex", message = "性别")
+    @ExcelAnalyze(nonEmpty = true, index = 7, formatCategory = 5, format = "staff.staff_info.sex", message = "性别", perset = {"男","女"})
     private String sexName;
 
     @ExcelProperty(value = "*出生日期")

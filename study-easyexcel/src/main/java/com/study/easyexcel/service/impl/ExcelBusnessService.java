@@ -3,12 +3,10 @@ package com.study.easyexcel.service.impl;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-import org.apache.poi.ss.formula.functions.T;
 import org.springframework.stereotype.Component;
 import com.alibaba.excel.EasyExcel;
 import com.alibaba.fastjson.JSONObject;
 import com.study.easyexcel.annotation.ExcelAnalyze;
-import com.study.easyexcel.handler.RowWriteHandler;
 import com.study.easyexcel.pojo.example.ExcelImportDto;
 import com.study.easyexcel.pojo.example.ExcelImportErrorDto;
 import com.study.easyexcel.pojo.example.ImportParamDto;
@@ -56,7 +54,7 @@ public class ExcelBusnessService<T, E> extends ExcelService {
     private void createErrorFile(List<?> errorList, Class<?> clazz) {
         String fileName = "D:\\excel\\" + System.currentTimeMillis() + ExcelUtil.EXCEL_SUFFIX_XLSX;
         System.out.println("=====file url======"+fileName);
-        EasyExcel.write(fileName, clazz).sheet("sheet-0").registerWriteHandler(new RowWriteHandler())
+        EasyExcel.write(fileName, clazz).sheet("sheet-0")
                 .doWrite(new ArrayList());
     }
 

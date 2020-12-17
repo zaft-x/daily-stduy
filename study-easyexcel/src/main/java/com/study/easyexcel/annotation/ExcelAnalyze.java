@@ -29,6 +29,9 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface ExcelAnalyze {
 
+    /** 列 */
+    int index() default -1;
+
     /** 非空 */
     boolean nonEmpty() default false;
 
@@ -41,6 +44,10 @@ public @interface ExcelAnalyze {
     /** 日期格式 */
     String format() default "";
 
+    /** 提示信息 */
     String message() default "";
+
+    /** 预设值 */
+    String[] perset() default {};
 
 }
