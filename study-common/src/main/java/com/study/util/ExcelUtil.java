@@ -1,5 +1,7 @@
 package com.study.util;
 
+import org.springframework.util.StringUtils;
+
 /**
  * @Author x.zaft
  * @Date 2020/12/10
@@ -8,10 +10,12 @@ package com.study.util;
 public class ExcelUtil {
 
     public static void main(String[] args) {
-        System.out.println(excelColIndexToStr(1));
-        System.out.println(excelColIndexToStr(2));
-        System.out.println(excelColIndexToStr(9));
-        System.out.println(excelColIndexToStr(44));
+//        System.out.println(excelColIndexToStr(1));
+//        System.out.println(excelColIndexToStr(2));
+//        System.out.println(excelColIndexToStr(9));
+        System.out.println(excelColIndexToStr(100));
+
+        System.out.println(excelColStrToNum("CV"));
 
     }
 
@@ -20,7 +24,11 @@ public class ExcelUtil {
     /**
      * Excel column index begin 1
      */
-    public static int excelColStrToNum(String colStr, int length) {
+    public static int excelColStrToNum(String colStr) {
+        if(StringUtils.isEmpty(colStr)){
+            return -1;
+        }
+        int length = colStr.length();
         int num = 0;
         int result = 0;
         for (int i = 0; i < length; i++) {
