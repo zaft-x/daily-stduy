@@ -29,7 +29,7 @@ public class ExcelUtil {
             return -1;
         }
         int length = colStr.length();
-        int num = 0;
+        int num;
         int result = 0;
         for (int i = 0; i < length; i++) {
             char ch = colStr.charAt(length - i - 1);
