@@ -22,6 +22,15 @@ public class ExcelService<T, E> {
       */
     public void analiesSingle(T t,E e){}
 
+     /**
+      *
+      * @author x.zaft
+      * @param rows 解析后行
+      * @param e excel外的参数
+      * @return
+      * @date 2020/12/25
+      * @version : v
+      */
     public ImportResult deal(List<T> rows, /*JwtParam jwtParam,*/ E e) {
         return null;
     }

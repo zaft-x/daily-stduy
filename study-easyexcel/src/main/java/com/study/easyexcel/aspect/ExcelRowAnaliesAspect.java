@@ -59,6 +59,7 @@ public class ExcelRowAnaliesAspect<T, E> {
         this.setError(entity, msg);
     }
 
+    /**反射  根据方法设置属性值*/
     private void setError(T entity, String msg){
         if (null != msg && !msg.trim().equals("")) {
             try {
