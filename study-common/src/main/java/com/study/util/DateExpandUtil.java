@@ -1,13 +1,13 @@
 package com.study.util;
 
 /**
+ * date extension util
  * @Author x.zaft
  * @Date 2020/12/9
  * @Version
  **/
 public class DateExpandUtil {
     public static final String F_DATE_1 = "yyyy/MM";
-    public static final String V_DATE_2 = "((19|20)[0-9]{2})/(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])";
     public static final String F_DATE_2 = "yyyy/MM/dd";
     public static final String f_date_3 = "yyyy/MM/dd HH";
     public static final String f_date_4 = "yyyy/MM/dd HH:mm";
