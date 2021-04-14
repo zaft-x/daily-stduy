@@ -1,7 +1,10 @@
 package com.study.easyexcel.handler;
 
 import java.lang.reflect.Field;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.DataFormat;
@@ -16,7 +19,10 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.VerticalAlignment;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.util.CellRangeAddressList;
+import org.apache.poi.ss.util.CellReference;
 import org.apache.poi.xssf.usermodel.XSSFDataValidation;
+import org.springframework.util.ObjectUtils;
+import org.springframework.util.StringUtils;
 import com.alibaba.excel.metadata.CellData;
 import com.alibaba.excel.metadata.Head;
 import com.alibaba.excel.write.handler.CellWriteHandler;
@@ -35,12 +41,24 @@ public class SpinnerWriteHandler implements SheetWriteHandler, CellWriteHandler 
 
     private Class<?> t;
 
-    /**perset row number*/
+    /** perset row number */
     private int rows;
+
+    /** start row*/
+    private int startRow;
 
     public SpinnerWriteHandler(Class<?> t, int rows) {
         this.t = t;
         this.rows = rows;
+    }
+
+    public SpinnerWriteHandler(Class<?> t, int startRow, int rows) {
+        this.t = t;
+        this.startRow = startRow;
+        this.rows = rows;
+    }
+
+    public SpinnerWriteHandler() {
     }
 
     @Override
@@ -82,6 +100,31 @@ public class SpinnerWriteHandler implements SheetWriteHandler, CellWriteHandler 
         }
     }
 
+    private List<Integer> getFormulas() {
+        List<Integer> result = new ArrayList<>();
+        Field[] declaredFields = t.getDeclaredFields();
+        for (Field declaredField : declaredFields) {
+            ExcelAnalyze excelAnalyze = declaredField.getDeclaredAnnotation(ExcelAnalyze.class);
+            if (null == excelAnalyze || ObjectUtils.isEmpty(excelAnalyze.formula())) {
+                continue;
+            }
+            result.add(excelAnalyze.index());
+        }
+        return result;
+    }
+
+    private void formula(Cell cell) {
+        Field[] declaredFields = t.getDeclaredFields();
+        for (Field declaredField : declaredFields) {
+            ExcelAnalyze excelAnalyze = declaredField.getDeclaredAnnotation(ExcelAnalyze.class);
+            String collect = Arrays.stream(excelAnalyze.formula()).boxed()
+                    .map(i -> CellReference.convertNumToColString(i) + (cell.getRowIndex() + 1))
+                    .collect(Collectors.joining(":"));
+            cell.setCellFormula("SUM(" + collect + ")");
+
+        }
+    }
+
     private CellStyle setStyle(Workbook wb) {
         Font font = wb.createFont();
         font.setColor(IndexedColors.RED.index);
@@ -95,8 +138,8 @@ public class SpinnerWriteHandler implements SheetWriteHandler, CellWriteHandler 
         cellStyle.setVerticalAlignment(VerticalAlignment.CENTER);
         cellStyle.setAlignment(HorizontalAlignment.CENTER);
         /**设置单元格属性（例：文本）*/
-        DataFormat dataFormat = wb.createDataFormat();
-        cellStyle.setDataFormat(dataFormat.getFormat("@"));
+//        DataFormat dataFormat = wb.createDataFormat();
+//        cellStyle.setDataFormat(dataFormat.getFormat("@"));
         return cellStyle;
     }
 
@@ -111,6 +154,10 @@ public class SpinnerWriteHandler implements SheetWriteHandler, CellWriteHandler 
             Head head, Integer relativeRowIndex, Boolean isHead) {
         /**设置单元格格式为文本*/
         Workbook workbook = writeSheetHolder.getSheet().getWorkbook();
+
+        if(cell.getRowIndex() >= this.startRow && this.getFormulas().contains(cell.getColumnIndex())){
+            this.formula(cell);
+        }
         cell.setCellStyle(this.setStyle(workbook));
 
     }
@@ -123,7 +170,11 @@ public class SpinnerWriteHandler implements SheetWriteHandler, CellWriteHandler 
     @Override
     public void afterCellDispose(WriteSheetHolder writeSheetHolder, WriteTableHolder writeTableHolder,
             List<CellData> cellDataList, Cell cell, Head head, Integer relativeRowIndex, Boolean isHead) {
+//        System.out.println("进入第" +  cell.getRowIndex() + "行,第" + cell.getColumnIndex() + "列数据...");
 
+
+//        int actualCellRowNum = cell.getRowIndex() + 1;
+//        this.formula(cell);
     }
 
 }

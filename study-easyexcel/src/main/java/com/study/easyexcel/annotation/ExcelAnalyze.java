@@ -50,4 +50,7 @@ public @interface ExcelAnalyze {
     /** 预设值 */
     String[] perset() default {};
 
+    /**公式*/
+    int[] formula() default {};
+
 }
