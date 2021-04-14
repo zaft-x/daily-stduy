@@ -117,11 +117,14 @@ public class SpinnerWriteHandler implements SheetWriteHandler, CellWriteHandler 
         Field[] declaredFields = t.getDeclaredFields();
         for (Field declaredField : declaredFields) {
             ExcelAnalyze excelAnalyze = declaredField.getDeclaredAnnotation(ExcelAnalyze.class);
+
+            /**
+             * : 和  -差  *积  /除
+             * */
             String collect = Arrays.stream(excelAnalyze.formula()).boxed()
                     .map(i -> CellReference.convertNumToColString(i) + (cell.getRowIndex() + 1))
                     .collect(Collectors.joining(":"));
             cell.setCellFormula("SUM(" + collect + ")");
-
         }
     }
 
